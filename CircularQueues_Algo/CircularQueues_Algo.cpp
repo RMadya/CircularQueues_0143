@@ -15,5 +15,11 @@ public:
 		cout << "Enter a number: ";
 		cin >> num;
 		cout << endl;
-	}
-};
+
+		//not commit
+		if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
+			cout << "Queue overflow\n";
+			return;
+		}
+
+		
